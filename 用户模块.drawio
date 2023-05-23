@@ -1,17 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T10:29:23.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="qsP2j48LGxeEMmzmpmAf" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T10:30:08.993Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rxscJprBt7WDZBQgtC4b" version="21.3.2" type="github">
   <diagram name="第 1 页" id="0AUaaIVt-kkO4RMALrJo">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nrDlEzxW3YHy5IL3hc1I-1" target="nrDlEzxW3YHy5IL3hc1I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-1" value="查询用户信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nrDlEzxW3YHy5IL3hc1I-3" target="nrDlEzxW3YHy5IL3hc1I-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-3" value="Redis中拿到我的关注总数，粉丝总数，获赞总数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="220" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nrDlEzxW3YHy5IL3hc1I-4" target="nrDlEzxW3YHy5IL3hc1I-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-4" value="MySQL中拿到基本的用户信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-5" value="返回给前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="312" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
