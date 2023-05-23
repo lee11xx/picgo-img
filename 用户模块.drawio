@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T10:33:11.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Ed43-wSxWwF6e3SLMXx8" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T10:34:16.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Mxd3KJOXa6d9pAeVE5aZ" version="21.3.2" type="github">
   <diagram name="第 1 页" id="0AUaaIVt-kkO4RMALrJo">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,12 @@
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-15" value="修改信息失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-18" value="昵称是否重复" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-19" value="昵称已经存在" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="255" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
