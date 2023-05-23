@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T10:45:44.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ZezaQ9eqqtzCZTNE9rxS" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T10:53:04.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="KwzVxJ28eH4CUQLNi1AK" version="21.3.2" type="github">
   <diagram name="第 1 页" id="0AUaaIVt-kkO4RMALrJo">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,6 +105,21 @@
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-39" value="修改图片地址到数据库，根据参数&amp;nbsp;type&amp;nbsp;判断是修改头像还是背景图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="675" y="350" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nrDlEzxW3YHy5IL3hc1I-42" target="nrDlEzxW3YHy5IL3hc1I-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-42" value="我的关注视频列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-43" value="根据当前用户&amp;nbsp;id&amp;nbsp;从&amp;nbsp;MySQL&amp;nbsp;中拿到关注视频列表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-45" value="遍历每个视频&amp;nbsp;VO&amp;nbsp;对象，判断用户是否关注该博主，是否点赞过视频" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nrDlEzxW3YHy5IL3hc1I-46" value="Redis&amp;nbsp;中拿到当前视频被点赞的总数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
