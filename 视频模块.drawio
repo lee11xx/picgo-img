@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T07:08:36.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="4wH6IXFEow5Avj4cGe6W" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T07:14:41.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ke0CIko6KCUUT8Vtjrf8" version="21.3.4" type="github">
   <diagram name="第 1 页" id="WXZ5FxBREvDLbD_KLT6q">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,6 +118,9 @@
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-13" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="340" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-15" target="8bdIcVnPFg0Oljo9QeHm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-15" value="查询视频详情页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="40" width="120" height="60" as="geometry" />
         </mxCell>
@@ -147,6 +150,9 @@
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-19" value="判断用户是否关注该博主，是否点赞过视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="370" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-20" target="8bdIcVnPFg0Oljo9QeHm-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-20" value="Redis&amp;nbsp;中拿到当前视频被点赞的总数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="470" width="120" height="60" as="geometry" />
         </mxCell>
@@ -155,6 +161,42 @@
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-25" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1310" y="285" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-26" value="返回信息给前端" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-29" target="8bdIcVnPFg0Oljo9QeHm-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-29" value="视频转为私密/公开" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="672" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-30" target="8bdIcVnPFg0Oljo9QeHm-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-30" value="前端负责调用转私密还是公开的接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-33" target="8bdIcVnPFg0Oljo9QeHm-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-33" value="通过参数&amp;nbsp;yesOrNo 将属性设为私密/公开" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-34" target="8bdIcVnPFg0Oljo9QeHm-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-34" value="通过&amp;nbsp;SQL&amp;nbsp;语句的条件限制每个视频转私密/公开的操作只能作者去做" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-35" target="8bdIcVnPFg0Oljo9QeHm-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-35" value="MySQL&amp;nbsp;中执行更新操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-36" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
