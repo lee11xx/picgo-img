@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T07:03:58.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="UWW1Cb3i_9mAGfrUSxwt" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T07:07:51.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GsPqB4r2CbqG7ugvumlU" version="21.3.4" type="github">
   <diagram name="第 1 页" id="WXZ5FxBREvDLbD_KLT6q">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,8 +109,29 @@
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-8" value="前端采用&amp;nbsp;CDN&amp;nbsp;上传视频，并传入视频文件相关信息，调后端接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="145" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-9" target="8bdIcVnPFg0Oljo9QeHm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-9" value="设置视频相关属性，MySQL&amp;nbsp;中存储一条视频记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-13" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-15" value="查询视频详情页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-16" target="8bdIcVnPFg0Oljo9QeHm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-16" value="MySQL&amp;nbsp;中根据主键拿到视频详情页信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-17" value="用户是否登录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="245" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-19" value="判断用户是否关注该博主，是否点赞过视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
