@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T06:59:09.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="I67bHlFZXggfOjMVreDC" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T06:59:15.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="9Q8voLGwlw2IuP1aOJID" version="21.3.4" type="github">
   <diagram name="第 1 页" id="WXZ5FxBREvDLbD_KLT6q">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,8 +82,14 @@
         <mxCell id="ibF3AnjWmkHCkzIqTZFg-31" value="遍历每一个消息&amp;nbsp;MO&amp;nbsp;对象" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="245" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-2" target="8bdIcVnPFg0Oljo9QeHm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-2" value="查询点赞视频列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="672" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-3" target="8bdIcVnPFg0Oljo9QeHm-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-3" value="MySQL&amp;nbsp;中根据当前用户&amp;nbsp;ID&amp;nbsp;拿到点赞视频列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="770" width="120" height="60" as="geometry" />
