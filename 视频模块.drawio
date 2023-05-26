@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T07:22:06.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="e02k43vtRvSe0Xx_H9Fu" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T07:26:32.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_L7nZ9jjh__Qh1Pj2v0k" version="21.3.4" type="github">
   <diagram name="第 1 页" id="WXZ5FxBREvDLbD_KLT6q">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,31 +71,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ibF3AnjWmkHCkzIqTZFg-29" value="查询消息列表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="780" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="1010" y="673" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aljr57ed6nD0tev_MYhq-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ibF3AnjWmkHCkzIqTZFg-30" target="ibF3AnjWmkHCkzIqTZFg-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ibF3AnjWmkHCkzIqTZFg-30" value="MongoDB&amp;nbsp;中拿到当前用户收到的消息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="780" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="1010" y="773" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ibF3AnjWmkHCkzIqTZFg-31" target="8bdIcVnPFg0Oljo9QeHm-66">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ibF3AnjWmkHCkzIqTZFg-31" value="遍历每一个消息&amp;nbsp;MO&amp;nbsp;对象" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="780" y="245" width="120" height="60" as="geometry" />
+          <mxGeometry x="1010" y="878" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-2" target="8bdIcVnPFg0Oljo9QeHm-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-2" value="查询点赞视频列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="672" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="673" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-3" target="8bdIcVnPFg0Oljo9QeHm-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-3" value="MySQL&amp;nbsp;中根据当前用户&amp;nbsp;ID&amp;nbsp;拿到点赞视频列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="771" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-4" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="870" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="871" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-7" target="8bdIcVnPFg0Oljo9QeHm-8">
           <mxGeometry relative="1" as="geometry" />
@@ -169,61 +172,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-29" value="视频转为私密/公开" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="672" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="673" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-30" target="8bdIcVnPFg0Oljo9QeHm-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-30" value="前端负责调用转私密还是公开的接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="771" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-33" target="8bdIcVnPFg0Oljo9QeHm-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-33" value="通过参数&amp;nbsp;yesOrNo 将属性设为私密/公开" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="961" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-34" target="8bdIcVnPFg0Oljo9QeHm-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-34" value="通过&amp;nbsp;SQL&amp;nbsp;语句的条件限制每个视频转私密/公开的操作只能作者去做" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="870" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="871" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-35" target="8bdIcVnPFg0Oljo9QeHm-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-35" value="MySQL&amp;nbsp;中执行更新操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1050" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="1051" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-36" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1140" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="1141" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-44" target="8bdIcVnPFg0Oljo9QeHm-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-44" value="查询私密/公开视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="672" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="673" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-45" target="8bdIcVnPFg0Oljo9QeHm-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-45" value="前端负责调用查询私密还是公开视频列表的接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="771" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-46" target="8bdIcVnPFg0Oljo9QeHm-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-46" value="通过&amp;nbsp;SQL&amp;nbsp;语句的条件限制该操作只能作者去做" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="870" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="871" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-47" target="8bdIcVnPFg0Oljo9QeHm-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-47" value="MySQL&amp;nbsp;中拿到对应视频列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="961" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-48" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1050" width="120" height="60" as="geometry" />
+          <mxGeometry x="680" y="1051" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-53" target="8bdIcVnPFg0Oljo9QeHm-54">
           <mxGeometry relative="1" as="geometry" />
@@ -260,6 +263,24 @@
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-61" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-66" target="8bdIcVnPFg0Oljo9QeHm-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-66" value="是否是&lt;br&gt;关注消息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="973" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-67" target="8bdIcVnPFg0Oljo9QeHm-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-67" value="Redis&amp;nbsp;中拿到关联关系，判断被关注用户有没有关注过该用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1083" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-69" value="是否是&lt;br&gt;关注消息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1169" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-81" value="设置为朋友，用于前端 “互关”&amp;nbsp;标记展示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
