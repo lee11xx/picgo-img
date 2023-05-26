@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T07:21:46.451Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="o0RvpFzgfywx0b4ZbOdk" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T07:22:06.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="e02k43vtRvSe0Xx_H9Fu" version="21.3.4" type="github">
   <diagram name="第 1 页" id="WXZ5FxBREvDLbD_KLT6q">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -240,14 +240,26 @@
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-55" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-58" target="8bdIcVnPFg0Oljo9QeHm-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-58" value="删除评论" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-59" target="8bdIcVnPFg0Oljo9QeHm-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-59" value="MySQL&amp;nbsp;中删除该评论记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="1360" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-60" target="8bdIcVnPFg0Oljo9QeHm-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-60" value="Redis&amp;nbsp;中该视频评论总数-1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-61" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
