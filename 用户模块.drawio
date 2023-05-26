@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T08:14:02.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ERZOxQiueoBf0K4GY-KA" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T08:15:13.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="dnvQw4ujnfitaf-znFZ8" version="21.3.4" type="github">
   <diagram name="第 1 页" id="0AUaaIVt-kkO4RMALrJo">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,8 +211,14 @@
         <mxCell id="ssj-WsS2pF4nqh3vulHq-8" value="UserToken 拦截器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ssj-WsS2pF4nqh3vulHq-9" target="ssj-WsS2pF4nqh3vulHq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-9" value="在访问&amp;nbsp;Controller&amp;nbsp;方法内容之前会走拦截器方法的逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ssj-WsS2pF4nqh3vulHq-10" target="ssj-WsS2pF4nqh3vulHq-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-10" value="从请求头中拿到&lt;br&gt;用户&amp;nbsp;ID&amp;nbsp;和&amp;nbsp;token&amp;nbsp;令牌" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1380" width="120" height="60" as="geometry" />
@@ -221,7 +227,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-11" value="Redis&amp;nbsp;中拿到&amp;nbsp;token&amp;nbsp;信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1550" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ssj-WsS2pF4nqh3vulHq-12" target="ssj-WsS2pF4nqh3vulHq-15">
           <mxGeometry relative="1" as="geometry" />
@@ -230,28 +236,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-12" value="token&lt;br&gt;信息为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1640" width="80" height="80" as="geometry" />
+          <mxGeometry x="100" y="1700" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ssj-WsS2pF4nqh3vulHq-13" target="ssj-WsS2pF4nqh3vulHq-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-13" value="Redis&amp;nbsp;中拿到&amp;nbsp;token&amp;nbsp;信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1750" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="1810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-15" value="提示：请登录后再进行操作！" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1650" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ssj-WsS2pF4nqh3vulHq-19" target="ssj-WsS2pF4nqh3vulHq-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ssj-WsS2pF4nqh3vulHq-19" target="ssj-WsS2pF4nqh3vulHq-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-19" value="两个&amp;nbsp;token&lt;br&gt;是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="1840" width="90" height="90" as="geometry" />
+          <mxGeometry x="95" y="1900" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-20" value="提示：会话失败，请重新登录！" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1855" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="1915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ssj-WsS2pF4nqh3vulHq-23" target="ssj-WsS2pF4nqh3vulHq-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ssj-WsS2pF4nqh3vulHq-23" target="ssj-WsS2pF4nqh3vulHq-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-23" value="用户&amp;nbsp;ID&amp;nbsp;和&amp;nbsp;token&lt;br&gt;有一个为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1450" width="110" height="100" as="geometry" />
+          <mxGeometry x="85" y="1470" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-29" value="请求放行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
