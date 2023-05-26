@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T06:31:07.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="wfIA0npWSUYRwy8Na5GW" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T06:56:13.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="DHnjB-JMCE4qRw0eWLsV" version="21.3.4" type="github">
   <diagram name="第 1 页" id="0AUaaIVt-kkO4RMALrJo">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,6 +106,9 @@
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-38" value="调用&amp;nbsp;MinIO&amp;nbsp;工具类方法执行上传操作，拿到图片地址" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="255" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nrDlEzxW3YHy5IL3hc1I-39" target="ssj-WsS2pF4nqh3vulHq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-39" value="修改图片地址到数据库，根据参数&amp;nbsp;type&amp;nbsp;判断是修改头像还是背景图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="675" y="350" width="130" height="70" as="geometry" />
         </mxCell>
@@ -127,6 +130,9 @@
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-45" value="遍历每个视频&amp;nbsp;VO&amp;nbsp;对象，判断用户是否关注该博主，是否点赞过视频" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="910" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nrDlEzxW3YHy5IL3hc1I-46" target="ssj-WsS2pF4nqh3vulHq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-46" value="Redis&amp;nbsp;中拿到当前视频被点赞的总数" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
@@ -147,6 +153,9 @@
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-51" value="遍历每个视频&amp;nbsp;VO&amp;nbsp;对象，判断用户是否关注该博主，是否点赞过视频" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nrDlEzxW3YHy5IL3hc1I-52" target="ssj-WsS2pF4nqh3vulHq-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-52" value="Redis&amp;nbsp;中拿到当前视频被点赞的总数" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="1000" width="120" height="60" as="geometry" />
@@ -181,14 +190,23 @@
         <mxCell id="sMi1jE_PJqb1ZQ5FPbgI-13" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="796" y="142.5" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MQP1osQVE7F0Vroe5CQB-1" value="退出登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQP1osQVE7F0Vroe5CQB-1" value="退出登录" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQP1osQVE7F0Vroe5CQB-2" value="Redis&amp;nbsp;中清除用户的&amp;nbsp;token&amp;nbsp;信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQP1osQVE7F0Vroe5CQB-2" value="Redis&amp;nbsp;中清除用户的&amp;nbsp;token&amp;nbsp;信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="128" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MQP1osQVE7F0Vroe5CQB-3" value="前端清除本地&amp;nbsp;APP&amp;nbsp;的&amp;nbsp;token&amp;nbsp;信息和会话信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQP1osQVE7F0Vroe5CQB-3" value="前端清除本地&amp;nbsp;APP&amp;nbsp;的&amp;nbsp;token&amp;nbsp;信息和会话信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-1" value="MySQL&amp;nbsp;修改用户信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="462" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-3" value="返回前端" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssj-WsS2pF4nqh3vulHq-5" value="返回前端" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
