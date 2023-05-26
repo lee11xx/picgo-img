@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T07:28:25.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="JJ6VsTmcAqx5K8TApdVQ" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T07:29:38.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="l9wjt-hGcVePnr2QuRx_" version="21.3.4" type="github">
   <diagram name="第 1 页" id="WXZ5FxBREvDLbD_KLT6q">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -267,6 +267,14 @@
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-66" target="8bdIcVnPFg0Oljo9QeHm-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-66" target="8bdIcVnPFg0Oljo9QeHm-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="1013" />
+              <mxPoint x="1170" y="1449" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-66" value="是否是&lt;br&gt;关注消息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="973" width="80" height="80" as="geometry" />
         </mxCell>
@@ -278,6 +286,14 @@
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-69" target="8bdIcVnPFg0Oljo9QeHm-81">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8bdIcVnPFg0Oljo9QeHm-69" target="8bdIcVnPFg0Oljo9QeHm-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="1235" />
+              <mxPoint x="970" y="1449" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-69" value="被关注用户是否&lt;br&gt;关注了该用户" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1180" width="120" height="109" as="geometry" />
@@ -291,8 +307,17 @@
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-83" value="返回前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="1418.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8bdIcVnPFg0Oljo9QeHm-87" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="1048" width="50" height="30" as="geometry" />
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-87" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1048" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-92" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1289" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-93" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1010" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8bdIcVnPFg0Oljo9QeHm-94" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1240" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
