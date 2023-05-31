@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T09:06:09.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ISRmSLnz_9mt0cRSjGYd" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T10:45:13.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TbLKcThvxT37F_AZQgqE" version="21.3.6" type="github">
   <diagram name="第 1 页" id="0AUaaIVt-kkO4RMALrJo">
     <mxGraphModel dx="880" dy="452" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-33" value="修改头像与背景图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="894" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nrDlEzxW3YHy5IL3hc1I-34" target="nrDlEzxW3YHy5IL3hc1I-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -95,22 +95,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-34" value="参数&amp;nbsp;type&amp;nbsp;判断&lt;br&gt;是否是头像或&lt;br&gt;背景图的枚举" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="115" width="120" height="115" as="geometry" />
+          <mxGeometry x="894" y="115" width="120" height="115" as="geometry" />
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-36" value="文件上传失败" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="836" y="142.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1050" y="142.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nrDlEzxW3YHy5IL3hc1I-38" target="nrDlEzxW3YHy5IL3hc1I-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-38" value="调用&amp;nbsp;MinIO&amp;nbsp;工具类方法执行上传操作，拿到图片地址" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="255" width="120" height="60" as="geometry" />
+          <mxGeometry x="894" y="255" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nrDlEzxW3YHy5IL3hc1I-39" target="ssj-WsS2pF4nqh3vulHq-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-39" value="修改图片地址到数据库，根据参数&amp;nbsp;type&amp;nbsp;判断是修改头像还是背景图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="675" y="350" width="130" height="70" as="geometry" />
+          <mxGeometry x="889" y="350" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nrDlEzxW3YHy5IL3hc1I-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nrDlEzxW3YHy5IL3hc1I-42" target="nrDlEzxW3YHy5IL3hc1I-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -185,28 +185,28 @@
           <mxGeometry x="330" y="570" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sMi1jE_PJqb1ZQ5FPbgI-12" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="740" y="225" width="40" height="30" as="geometry" />
+          <mxGeometry x="954" y="225" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sMi1jE_PJqb1ZQ5FPbgI-13" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="796" y="142.5" width="40" height="30" as="geometry" />
+          <mxGeometry x="1010" y="142.5" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZW9AwvD2FFG8ugDAfKR4-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQP1osQVE7F0Vroe5CQB-1" target="MQP1osQVE7F0Vroe5CQB-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MQP1osQVE7F0Vroe5CQB-1" value="退出登录" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="1322" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZW9AwvD2FFG8ugDAfKR4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MQP1osQVE7F0Vroe5CQB-2" target="MQP1osQVE7F0Vroe5CQB-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MQP1osQVE7F0Vroe5CQB-2" value="Redis&amp;nbsp;中清除用户的&amp;nbsp;token&amp;nbsp;信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="128" width="120" height="60" as="geometry" />
+          <mxGeometry x="1322" y="128" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MQP1osQVE7F0Vroe5CQB-3" value="前端清除本地&amp;nbsp;APP&amp;nbsp;的&amp;nbsp;token&amp;nbsp;信息和会话信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="225" width="120" height="60" as="geometry" />
+          <mxGeometry x="1322" y="225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-1" value="MySQL&amp;nbsp;修改用户信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="462" width="120" height="60" as="geometry" />
+          <mxGeometry x="894" y="462" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ssj-WsS2pF4nqh3vulHq-3" value="返回前端" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="1090" width="120" height="60" as="geometry" />
