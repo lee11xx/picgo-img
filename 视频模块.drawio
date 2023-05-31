@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T08:58:40.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qYgUsupRqGNrT1yqekks" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T11:14:02.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="leAKJeXxA7I2LTK2q1TV" version="21.3.6" type="github">
   <diagram name="第 1 页" id="WXZ5FxBREvDLbD_KLT6q">
     <mxGraphModel dx="880" dy="452" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,9 @@
         </mxCell>
         <mxCell id="ibF3AnjWmkHCkzIqTZFg-25" value="MySQL&amp;nbsp;中拿到指定视频的评论列表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kGiAyPqXdgel3VKCv5bJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ibF3AnjWmkHCkzIqTZFg-26" target="kGiAyPqXdgel3VKCv5bJ-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ibF3AnjWmkHCkzIqTZFg-26" value="遍历每个评论 VO&amp;nbsp;对象，Redis&amp;nbsp;中拿到对应的点赞数，判断用户是否点赞过该评论" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="245" width="120" height="60" as="geometry" />
@@ -313,6 +316,9 @@
         </mxCell>
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-92" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1291" y="953.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kGiAyPqXdgel3VKCv5bJ-1" value="返回前端" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
