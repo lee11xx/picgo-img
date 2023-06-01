@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T11:16:59.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FmZ5fsWBi0aYELFItSA_" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T06:30:14.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="y9jQ70Tp84KrspaZ6dLN" version="21.3.6" type="github">
   <diagram name="第 1 页" id="WXZ5FxBREvDLbD_KLT6q">
     <mxGraphModel dx="880" dy="452" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
         <mxCell id="ibF3AnjWmkHCkzIqTZFg-25" value="MySQL&amp;nbsp;中拿到指定视频的评论列表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kGiAyPqXdgel3VKCv5bJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ibF3AnjWmkHCkzIqTZFg-26" target="kGiAyPqXdgel3VKCv5bJ-1">
+        <mxCell id="kGiAyPqXdgel3VKCv5bJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ibF3AnjWmkHCkzIqTZFg-26" target="kGiAyPqXdgel3VKCv5bJ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ibF3AnjWmkHCkzIqTZFg-26" value="遍历每个评论 VO&amp;nbsp;对象，Redis&amp;nbsp;中拿到对应的点赞数，判断用户是否点赞过该评论" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -317,8 +317,29 @@
         <mxCell id="8bdIcVnPFg0Oljo9QeHm-92" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1291" y="931.5" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kGiAyPqXdgel3VKCv5bJ-1" value="返回前端" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="kGiAyPqXdgel3VKCv5bJ-1" value="返回前端" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rxZylTtfVQfnpK4PTw1l-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rxZylTtfVQfnpK4PTw1l-1" target="rxZylTtfVQfnpK4PTw1l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rxZylTtfVQfnpK4PTw1l-1" value="用户点赞视频" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1268" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rxZylTtfVQfnpK4PTw1l-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rxZylTtfVQfnpK4PTw1l-2" target="rxZylTtfVQfnpK4PTw1l-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rxZylTtfVQfnpK4PTw1l-2" value="用户和点赞的视频关联关系入库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rxZylTtfVQfnpK4PTw1l-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rxZylTtfVQfnpK4PTw1l-3" target="rxZylTtfVQfnpK4PTw1l-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rxZylTtfVQfnpK4PTw1l-3" value="Redis&amp;nbsp;中记录博主获赞+1，用户和点赞的视频关联关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rxZylTtfVQfnpK4PTw1l-4" value="给视频博主发送视频获赞的消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
